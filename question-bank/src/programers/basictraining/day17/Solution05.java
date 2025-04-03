@@ -15,9 +15,19 @@ public class Solution05 {
         for (int i = 0; i < myString.length(); i++) {
             char ch = myString.charAt(i);
 
-            if (ch == ' ') continue;
+            if (ch != ' ') {
+                sb.append(ch);
+            } else if (sb.length() > 0) {
+                answer.add(sb.toString());
+                sb.setLength(0); // StringBuilder 초기화
+            }
         }
 
-        return answer.toArray(String[]::new);
+        // 마지막 단어 추가
+        if (sb.length() > 0) {
+            answer.add(sb.toString());
+        }
+
+        return answer.toArray(new String[0]);
     }
 }
