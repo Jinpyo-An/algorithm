@@ -17,11 +17,11 @@
   - score가 작으면 winners의 첫번째 원소를 winnersMinScore에 넣는다.
  */
 
-package programers.level01.day11;
+package programers.level01.day12;
 
 import java.util.PriorityQueue;
 
-public class Solution02 {
+public class Solution01 {
 
     public int[] solution(int k, int[] scores) {
         PriorityQueue<Integer> pq = new PriorityQueue<>();
