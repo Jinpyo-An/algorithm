@@ -41,7 +41,6 @@ public class Solution03 {
                 idx03 = 0;
             }
         }
-
-        
+        return new int[]{0};
     }
 }
