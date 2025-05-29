@@ -39,14 +39,4 @@ public class Solution01 {
             return sum;
         }
     }
-
-    public int solution02(int k, int m, int[] score) {
-        int sum = 0;
-
-        Arrays.sort(score);
-
-        for (int i = score.length; i >= m; i -= m) {
-            sum +=
-        }
-    }
 }
