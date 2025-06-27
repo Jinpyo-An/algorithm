@@ -19,6 +19,6 @@ package chapter05;
 public class Solution14 {
 
     public String solution(int rowNum, int position, String[] cmd) {
-
+        return "";
     }
 }
