@@ -9,14 +9,16 @@ import java.util.Scanner;
  * 2-2. 숫자면 저장한다.
  */
 
-public class Solution10_3 {
+public class Solution9_2 {
 
     public static int solution(String str) {
-        StringBuilder sb = new StringBuilder();
+        int answer = 0;
+
         for (char c : str.toCharArray()) {
-            if (Character.isDigit(c)) sb.append(c);
+            if (c >= 48 && c <= 57) answer = answer * 10 + (c - 48);
         }
-        return Integer.parseInt(sb.toString());
+
+        return answer;
     }
 
     public static void main(String[] args) {
