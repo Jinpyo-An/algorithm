@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-public class Solution1_2 {
+public class Solution2_1 {
 
     public static String solution(String str) {
         Deque<Character> deque = new ArrayDeque<>();
