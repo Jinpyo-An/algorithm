@@ -12,6 +12,13 @@ public class Solution0_1 {
         solution(N, current + 1);
     }
 
+    public static void solution2(int N) {
+        if (N == 0) return;
+
+        solution2(N);
+        System.out.print(N + " ");
+    }
+
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine());
