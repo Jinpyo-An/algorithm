@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/algorithm.iml" filepath="$PROJECT_DIR$/algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/barking-dog.iml" filepath="$PROJECT_DIR$/barking-dog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/barking-dog.main.iml" filepath="$PROJECT_DIR$/.idea/modules/barking-dog.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/barking-dog.test.iml" filepath="$PROJECT_DIR$/.idea/modules/barking-dog.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/online-lecture.iml" filepath="$PROJECT_DIR$/online-lecture.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/online-lecture.main.iml" filepath="$PROJECT_DIR$/.idea/modules/online-lecture.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/online-lecture.test.iml" filepath="$PROJECT_DIR$/.idea/modules/online-lecture.test.iml" />
