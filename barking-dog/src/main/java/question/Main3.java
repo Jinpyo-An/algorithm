@@ -6,7 +6,7 @@
 
 package question;
 
-public class Solution3 {
+public class Main3 {
 
     public int solution(int n) {
         int temp = n / 2;

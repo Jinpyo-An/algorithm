@@ -1,6 +1,6 @@
 package question;
 
-public class Solution2 {
+public class Main2 {
 
     public int solution(int n) {
         for (int i = 1; i * i <n; i++) {

@@ -6,7 +6,7 @@
 
 package question;
 
-public class Solution1 {
+public class Main1 {
 
     public int solution(int[] arr) {
 
