@@ -36,11 +36,11 @@ public class Main14 {
 
     public static int front() {
         if (deque.isEmpty()) return -1;
-        else deque.getFirst();
+        else return deque.getFirst();
     }
 
     public static int back() {
         if (deque.isEmpty()) return -1;
-        else deque.getLast();
+        else return deque.getLast();
     }
 }
